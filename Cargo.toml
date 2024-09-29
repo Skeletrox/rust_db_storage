@@ -4,3 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+rust_db_proto = { git = "https://github.com/Skeletrox/rust_db_proto", branch = "main" }
+tokio = { version = "1", features = ["full"] }
+
